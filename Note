@@ -1,0 +1,10 @@
+                    Restaurant apple
+
+1.CREATE A PROJECT - npx creste-react-app restaurent-listing-app
+2.cd restaurent-listing-app
+3.code .
+4.In vs code teraminal-npm start
+5.Remove unwanted files
+6.Instal react bootstap-nom i react-bootstrap bootstap
+7.Select template from bootswatch
+8.Create Components-header and footer
