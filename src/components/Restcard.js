@@ -9,7 +9,7 @@ function Restcard({restaurant}) {
     console.log(restaurant);
   return (
     <Col sm={12} md={6} lg={4} xl={3}>
-        <Link to={'viewrest/${{restautant.id}}'} style={{textDecoration:"none",}}>
+        <Link to={`viewrest/${restaurant.id}`} style={{textDecoration:"none",}}>
         <Card className='p-3 m-2'>
     <Card.Img className='p-3' variant="top" src={restaurant.photograph} />
     <Card.Body>

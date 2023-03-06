@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 
-function Restop(operate) {
+function Restop({operate}) {
     console.log(operate);//display in times
 
     const [show, setShow] = useState(false);
